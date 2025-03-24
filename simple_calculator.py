@@ -21,7 +21,7 @@ def calculator():
         elif choice == '4':
             try:
                 print(f"Wynik: {num1 / num2}")
-            except ZeroDivisionError: #obsługa wyjątku przy dzielenie przez 0
+            except ZeroDivisionError: #obsługa wyjątku przy dzieleniu przez 0
                 print("Błąd: Nie można dzielić przez zero!")
     else:
         print("Nieprawidłowy wybór!") #użytkownik podał znak poza zakresem
