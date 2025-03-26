@@ -7,3 +7,6 @@ ENV/
 env.bak/
 venv.bak/
 /ProjVenv
+
+# private
+simple_db_extracting/data.txt
